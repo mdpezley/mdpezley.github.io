@@ -1,0 +1,169 @@
+@font-face {
+	font-family: tan;
+	src: url("Tangerine_Regular.ttf");
+}
+@font-face {
+	font-family: gra;
+	src: url("Gravity-Regular.otf");
+}
+@font-face {
+	font-family: bgra;
+	src: url("Gravity-Bold.otf");
+}
+
+html{
+	background-image: url(pexels-scott-webb-3255761.jpg);
+	background-size: 2500px;
+	padding-left: 0.5in;
+	padding-right: 0.5in;
+}	
+h1{
+	text-align: center;
+	font-family:tan;
+	font-size:95px;
+	padding-left: 0.5in;
+	padding-right: 0.5in;
+	margin-bottom: 0;
+}
+h2{
+	text-align: center;
+	font-family:gra;
+	font-size:50px;
+	margin-top: 0.2in;
+	margin-bottom: 0.9in;
+}
+h3{
+	text-align: center;
+	font-family:gra;
+	font-size:25px;
+}
+h4{
+	text-align: left;
+	font-family:gra;
+	font-size:50px;
+	
+	margin-top: 0in;
+	margin-bottom: 0;
+}
+h5{
+	text-align: left;
+	font-family:gra;
+	font-size:25px;
+	
+	
+	margin-top: 0px;
+}
+h6{
+	font-size: 17px;
+	font-family: gra;
+	text-align: right;
+}	
+
+
+.note2 {
+	font-size: 35px;
+	font-family: bgra;
+	text-align: left;
+}	
+p{
+	margin-bottom:0;
+	margin-top:0;
+}
+a{
+	text-color: black;
+}
+
+
+a:visited{
+	color: black;
+}
+a:hover {
+	color: blue;
+	font-weight: bold;
+}
+
+div.section1{	grid-area: section1; }
+div.section2{	grid-area: section2; }
+div.section3{	grid-area: section3; }
+
+div.contact{
+	padding: 0.5in;
+	display: grid;
+	grid-template-columns: 35% 35% 35%;
+	grid-template-areas: 
+		"section1 section2 section3"
+}
+
+div.section4{	grid-area: section4; }
+div.section5{	grid-area: section5; }
+div.section6{	grid-area: section6; }
+div.section7{	grid-area: section7; }
+
+div.contact2{
+	
+	display: grid;
+	grid-template-columns: 8% 52% 8% 10%;
+	grid-template-areas: 
+		"section4 section5 section6 section7"
+}
+
+div.button1{
+	background-color: white;
+	text-align: center;
+	padding: 0.2in;
+	margin-left: 35%;
+	margin-right: 20%;
+	border: black solid 2pt;
+	border-radius: 25px;
+}
+	
+div.button2{
+	background-color: white;
+	text-align: center;
+	padding: 0.25in;
+	margin-left: 47%;
+	margin-right: 47%;
+	border: black solid 2pt;
+	border-radius: 25px;
+	float: left;
+}
+
+div.home, div.about, div.portfolio{
+	background-color: white;
+	text-align: center;
+	padding: 0.25in;
+	margin-left: 40%;
+	margin-right: 40%;
+	border: black solid 2pt;
+	border-radius: 25px;
+	float: left;
+}
+
+div.home{	grid-area: home; }
+div.about{	grid-area: about; }
+div.portfolio{	grid-area: portfolio; }
+
+div.name{
+	
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	grid-template-areas: 
+		"home about portfolio"
+}
+
+button{
+	font-size:20px;
+	
+}	
+div.section8{	grid-area: section8; }
+div.section9{	grid-area: section9; }
+div.contact4{
+	padding: .5in;
+	display: grid;
+	grid-template-columns: 40% 40% ;
+	grid-template-areas: 
+		"section8 section9"
+}
+.note {
+	margin-top: 1in;
+}
