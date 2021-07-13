@@ -10,7 +10,9 @@
 	font-family: bgra;
 	src: url("Gravity-Bold.otf");
 }
-
+body{
+	width: 100%
+}	
 html{
 	background-image: url(pexels-scott-webb-3255761.jpg);
 	background-size: 25000px;
@@ -112,7 +114,13 @@ div.contact2{
 		"section6"
 		"section7"
 }
-
+button{
+	font-size:20px;
+	border: black solid 2pt;
+	border-radius: 25px;
+	padding: 0.10in;
+	margin-top: 0.2in;
+}	
 div.button1{
 	background-color: white;
 	text-align: center;
@@ -332,7 +340,10 @@ div.name{
 
 button{
 	font-size:20px;
-	
+	border: black solid 2pt;
+	border-radius: 25px;
+	padding: 0.10in;
+	margin-top: 0.2in;
 }	
 div.section8{	grid-area: section8; }
 div.section9{	grid-area: section9; }
