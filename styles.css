@@ -174,6 +174,18 @@ div.contact4{
 .note {
 	margin-top: 1in;
 }
+
+img.set1{
+	width: 100%;
+	height: auto;
+	margin-top: 25px;
+}
+img.set2{
+	width: 20%;
+	height: auto;
+	margin-top: 25px;
+}
+
 @media screen and (min-width: 675px){
 html{
 	background-image: url(pexels-scott-webb-3255761.jpg);
@@ -199,7 +211,7 @@ h2{
 h3{
 	text-align: center;
 	font-family:gra;
-	font-size:15px;
+	font-size:30px;
 }
 h4{
 	text-align: left;
@@ -216,7 +228,7 @@ h5{
 	margin-top: 0px;
 }
 h6{
-	font-size: 12px;
+	font-size: 18px;
 	font-family: gra;
 	text-align: right;
 }	
@@ -278,8 +290,8 @@ div.button1{
 	background-color: white;
 	text-align: center;
 	padding: 0.2in;
-	margin-left: 35%;
-	margin-right: 20%;
+	margin-left: 25%;
+	margin-right: 10%;
 	border: black solid 2pt;
 	border-radius: 25px;
 }
@@ -334,7 +346,17 @@ div.contact4{
 .note {
 	margin-top: 1in;
 }	
-@media screen and (min-width: 1000px){ /*Fix 800 number*/
+img.set1{
+	width: 40%;
+	height: auto;
+	margin-top: 25px;
+}
+img.set2{
+	width: 20%;
+	height: auto;
+	margin-top: 25px;
+}
+@media screen and (min-width: 1000px){ 
 html{
 	background-image: url(pexels-scott-webb-3255761.jpg);
 	background-size: 25000px;
@@ -435,7 +457,7 @@ div.button1{
 	background-color: white;
 	text-align: center;
 	padding: 0.2in;
-	margin-left: 35%; /*Fix left and right margin*/
+	margin-left: 35%; 
 	margin-right: 20%;
 	border: black solid 2pt;
 	border-radius: 25px;
@@ -445,7 +467,7 @@ div.button2{
 	background-color: white;
 	text-align: center;
 	padding: 0.25in;
-	margin-left: 47%; /*Fix left and right margin*/
+	margin-left: 47%; 
 	margin-right: 47%;
 	border: black solid 2pt;
 	border-radius: 25px;
@@ -491,3 +513,12 @@ div.contact4{
 .note {
 	margin-top: 1in;	
 }	
+img.set1{
+	width: 80%;
+	height: auto;
+}
+img.set2{
+	width: 20%;
+	height: auto;
+	margin-top: 25px;
+}
