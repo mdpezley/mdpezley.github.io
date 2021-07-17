@@ -11,7 +11,7 @@
 	src: url("Gravity-Bold.otf");
 }
 body{
-	width: 100%
+	width: 100%;
 }	
 html{
 	background-image: url(pexels-scott-webb-3255761.jpg);
@@ -22,7 +22,7 @@ html{
 h1{
 	text-align: center;
 	font-family:tan;
-	font-size:95px;
+	font-size:55px;
 	padding-left: 0.5in;
 	padding-right: 0.5in;
 	margin-bottom: 0;
@@ -30,14 +30,14 @@ h1{
 h2{
 	text-align: center;
 	font-family:gra;
-	font-size:50px;
+	font-size:30px;
 	margin-top: 0.2in;
 	margin-bottom: 0.9in;
 }
 h3{
 	text-align: center;
 	font-family:gra;
-	font-size:25px;
+	font-size:20px;
 }
 h4{
 	text-align: left;
@@ -50,7 +50,7 @@ h4{
 h5{
 	text-align: left;
 	font-family:gra;
-	font-size:25px;
+	font-size:20px;
 	
 	
 	margin-top: 0px;
@@ -63,7 +63,7 @@ h6{
 
 
 .note2 {
-	font-size: 35px;
+	font-size: 25px;
 	font-family: bgra;
 	text-align: left;
 }	
@@ -193,6 +193,9 @@ img.set2{
 	height: auto;
 	margin-top: 25px;
 }
+img{
+	width: 90%;
+}
 
 @media screen and (min-width: 675px){
 html{
@@ -212,7 +215,7 @@ h1{
 h2{
 	text-align: center;
 	font-family:gra;
-	font-size:35px;
+	font-size:3px;
 	margin-top: 0.2in;
 	margin-bottom: 0.9in;
 }
