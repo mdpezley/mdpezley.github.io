@@ -182,20 +182,21 @@ div.contact4{
 .note {
 	margin-top: 1in;
 }
-
+img{
+	width: 90%;
+}
 img.set1{
 	width: 100%;
 	height: auto;
 	margin-top: 25px;
+	margin-left:0px;
 }
 img.set2{
 	width: 20%;
 	height: auto;
 	margin-top: 25px;
 }
-img{
-	width: 90%;
-}
+
 
 @media screen and (min-width: 675px){
 html{
@@ -360,10 +361,17 @@ div.contact4{
 .note {
 	margin-top: 1in;
 }	
+img{
+	width: 50%; 
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
 img.set1{
 	width: 40%;
 	height: auto;
 	margin-top: 25px;
+	margin-left: 0px;
 }
 img.set2{
 	width: 20%;
@@ -371,12 +379,8 @@ img.set2{
 	margin-top: 25px;
 }
 
-img{
-	width: 50%; 
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
+
+
 
 @media screen and (min-width: 1000px){ 
 html{
@@ -534,10 +538,14 @@ div.contact4{
 }
 .note {
 	margin-top: 1in;	
+}
+img{
+	width: 200%;
 }	
 img.set1{
 	width: 80%;
 	height: auto;
+	margin-left:0px;
 }
 img.set2{
 	width: 20%;
@@ -545,6 +553,3 @@ img.set2{
 	margin-top: 25px;
 }
 
-img{
-	width: 200%;
-}
